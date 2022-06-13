@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar
+{
+    background-color: rgb(72, 72, 247);
+}
+
+.nav-item{
+    color: black;
+    font-size: 25px;
+    
+
+}
+.card:hover{
+    background-color: rgb(207, 207, 250);
+    box-shadow: 1px 10px 5px gray;
+}
+
+.head h1::before{
+    background: rgb(0, 0, 0);
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    
+    left: 0;
+    top: 31%;
+    margin-left: 670px;
+}

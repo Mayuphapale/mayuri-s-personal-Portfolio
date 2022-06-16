@@ -20,7 +20,7 @@ body{
 
 }
 .nav-item .nav-link{
-    color: white;
+    color: white; 
 }
 .container{
     display: flex;
